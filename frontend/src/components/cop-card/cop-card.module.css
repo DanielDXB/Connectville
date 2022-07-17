@@ -1,0 +1,54 @@
+.card {
+  margin-top: 3rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 50%;
+  min-width: 600px;
+  max-height: 500px;
+}
+
+.profile-picture {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 70%;
+}
+
+.img-props {
+  width:auto;
+  height: 30%;
+  max-height: 320px;
+  padding-bottom: 1%;
+}
+
+.font-family {
+  font-family: "Noto Sans";
+  font-weight: bold;
+}
+
+.font-size-title {
+  font-size: 25px;
+  letter-spacing: 0.1rem;
+}
+
+.font-size-author {
+  color: #474747;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  color: black;
+  padding-top: 0.8%;
+}
+
+.list-no-bull {
+  list-style-type: none;
+}
+
+.spacing-p {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0.01%;
+  text-align: justify;
+}

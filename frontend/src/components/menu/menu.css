@@ -1,0 +1,57 @@
+.container {
+  background-color: #6082b6;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  font-family: "League Gothic";
+  border-radius: 5px;
+  /* position: fixed; Set the navbar to fixed position */
+  align-self: center;
+  left: 4%;
+}
+
+.btn {
+  background-color: #6082b6;
+  padding: 0;
+  border: none;
+  background: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  /* color: white; */
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: white;
+  transition: 0.75s;
+}
+
+.user-hello {
+  background-color: #6082b6;
+  display: flex;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 60px;
+}
+
+.nume {
+  background-color: #6082b6;
+  display: flex;
+  font-size: 35px;
+  padding-top: 2px;
+  padding-right: 15px;
+  /* color: white; */
+}
+
+.buttons {
+  background-color: #6082b6;
+  display: flex;
+  justify-content: flex-start;
+  height: 50px;
+}
+
+.display-menu-logo-name {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,84 @@
+.align-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-bg {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.font-size-title-nav {
+  font-family: "League Gothic";
+  font-size: 35px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+/* CSS */
+.button-post {
+  margin-top: 3rem;
+  width: 50%;
+  min-width: 600px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: 1px solid #6082b6;
+  box-sizing: border-box;
+  color: #00132c;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: "League Gothic";
+  font-size: 30px;
+}
+
+.button-post:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-post:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-post:before {
+  background-color: #cbd3e7;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-post:hover:before {
+  background-color: #6082b6;
+}
+
+@media (min-width: 768px) {
+  .button-post {
+    padding: 16px 32px;
+  }
+}

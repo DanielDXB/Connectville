@@ -1,0 +1,48 @@
+.container-latest-news {
+  height: 3rem;
+  width: auto;
+  height: 50px;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-size-title-nav {
+  font-family: "League Gothic";
+  font-size: 35px;
+  color: black;
+}
+
+.dont-miss-text {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.button-nav {
+  color: black;
+  border: none;
+  text-align: center;
+  text-decoration: double;
+  padding: 8px;
+  font-weight: bold;
+  margin: 8px;
+  font-family: "League Gothic";
+  font-size: 20px;
+  letter-spacing: 0.3rem;
+}
+
+.button-nav-col-all {
+  background-color: #b66082;
+}
+.button-nav-col-legal {
+  background-color: #b69460;
+}
+.button-nav-col-hr {
+  background-color: #60b694;
+}
+.button-nav-col-tech {
+  background-color: #6082b6;
+}

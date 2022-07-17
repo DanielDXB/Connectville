@@ -1,0 +1,7 @@
+.center-follow-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    /* align-items: flex-start; */
+}

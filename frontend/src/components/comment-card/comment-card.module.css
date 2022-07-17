@@ -1,0 +1,16 @@
+.flex-direction {
+  display: flex;
+  gap: 10px;
+}
+
+.font-family {
+  font-family: "Noto Sans", serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.align-p {
+  text-align: justify;
+  padding-top: 2%;
+  padding-left: 2%;
+}

@@ -1,0 +1,35 @@
+.font-latest-art {
+  font-family: "Cardo", sans-serif;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.font-title-latest-art {
+  font-family: "League Gothic";
+  letter-spacing: 0.2rem;
+  text-align: justify;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+
+.h5-font {
+  /* font-family: "Cardo", monospace; */
+  font-family: "Cardo", sans-serif;
+  font-size: small;
+  display: flex;
+  align-self: flex-end;
+  font-style: normal;
+}
+
+.font-size-title-nav {
+  font-family: "League Gothic";
+  font-size: 35px;
+  color: black;
+}

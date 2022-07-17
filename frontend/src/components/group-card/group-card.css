@@ -1,0 +1,64 @@
+.container-group {
+  font-family: "League Gothic";
+  /* width: 400px;
+  height: 250px; */
+  width: 30%;
+  min-width: 300px;
+  height: 300px;
+  background: white;
+  /* border-radius: 16px; */
+  border-radius: 5px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  /* position: absolute; */
+  /* right: 0%; */
+  font-size: 20px;
+}
+
+.followed {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.other {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.container-box {
+  border-style: groove;
+  border-radius: 10px;
+  position: relative;
+  width: 95%;
+  /* width: 385px; */
+  height: 35px;
+  display: flex;
+}
+
+.group-btn {
+  /* position: absolute; */
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  /* left: 310px; */
+  width: 55px;
+  height: auto;
+  background-color: #6082b6;
+  border-radius: 10px;
+  font-size: 15px;
+  border-width: 0.01em;
+  font-family: "League Gothic";
+}
+
+.group-btn:hover {
+  background-color: white;
+}
+
+.title-group {
+  padding-bottom: 6px;
+}
+
+.single-title {
+  font-size: 20px;
+  font-family: "League Gothic";
+  padding-left: 10px;
+}

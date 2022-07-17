@@ -1,0 +1,47 @@
+.card__container {
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  color: #fff;
+  font-family: "League Gothic";
+}
+
+.card_title_format {
+  font-size: 200%;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  padding-left: 0.1cm;
+}
+.card_content_format {
+  font-size: 125%;
+  padding-left: 0.1cm;
+}
+
+.test {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opacity_div {
+  background: #fff;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 18px;
+  left: 6px;
+  opacity: 0.5; /* manipulate to desired opacity */
+}
+
+.half_fade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+}
+
+.card__text {
+  text-align: start;
+}

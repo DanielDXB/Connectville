@@ -1,0 +1,154 @@
+.modal-overlay {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-box {
+  font-family: "League Gothic";
+  width: 700px;
+  height: 400px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  font-size: 20px;
+}
+
+.modal-bg {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.container-modal {
+  width: 700px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-modal {
+  background-color: white;
+}
+
+.intro {
+  padding-top: 50px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.title-span {
+  position: absolute;
+  left: 70px;
+}
+
+.text-span {
+  position: absolute;
+  padding-top: 30px;
+  left: 70px;
+  bottom: 145px;
+}
+
+.text--input {
+  width: 500px;
+  height: 35px;
+  border-radius: 10px;
+  border-width: 0.01em;
+  position: relative;
+  left: 22px;
+}
+
+.textarea {
+  width: 500px;
+  height: 75px;
+  left: 22px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.text {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.file {
+  padding-top: 10px;
+  padding-left: 75px;
+  display: flex;
+  justify-content: center;
+}
+
+.file--input::-webkit-file-upload-button {
+  border-radius: 20px;
+  background-color: #6082b6;
+  border: 1px solid black;
+}
+
+.file--input::-webkit-file-upload-button:hover {
+  background-color: white;
+}
+
+.file--input {
+  padding-left: 10px;
+  border-color: black;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 3px;
+  position: relative;
+  left: 40px;
+}
+
+.file-span {
+  padding-right: 10px;
+  font-size: 20px;
+  position: absolute;
+  left: 155px;
+  bottom: 73px;
+}
+
+.buttons-modal {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn--post {
+  width: 230px;
+  height: 40px;
+  background-color: #6082b6;
+  border-radius: 10px;
+  font-size: 22px;
+  border-width: 0.01em;
+  font-family: "League Gothic";
+}
+
+.btn--post:hover {
+  background-color: white;
+}
+
+.button-prop {
+  border: none;
+  background: none;
+}
